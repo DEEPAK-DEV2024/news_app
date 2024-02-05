@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DEEPAK-DEV2024/news_app/static/css/main.81fc8922.css",
+    "main.js": "/DEEPAK-DEV2024/news_app/static/js/main.c20f5e5e.js",
+    "index.html": "/DEEPAK-DEV2024/news_app/index.html",
+    "main.81fc8922.css.map": "/DEEPAK-DEV2024/news_app/static/css/main.81fc8922.css.map",
+    "main.c20f5e5e.js.map": "/DEEPAK-DEV2024/news_app/static/js/main.c20f5e5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81fc8922.css",
+    "static/js/main.c20f5e5e.js"
+  ]
+}
