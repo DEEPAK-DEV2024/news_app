@@ -7,7 +7,8 @@ function NewsList() {
   useEffect(() => {
     const fetchApi = async () => {
       const apiKey = "bf9045fe54dc4b45a37a7f1c00f4bb26";
-      const newsUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
+      
+      const newsUrl = `https://newsapi.org/v2/top-headlines?country=in&apiKey=bf9045fe54dc4b45a37a7f1c00f4bb26`;
       const response = await fetch(newsUrl);
       const result = await response.json();
       console.log(result);
