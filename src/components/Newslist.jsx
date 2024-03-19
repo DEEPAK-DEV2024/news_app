@@ -22,7 +22,7 @@ function NewsList() {
     <div className="news-grid">
       {news &&
         news.map((article, index) => (
-          <div key={index} className={`grid-item ${index % 2 === 0 ? "even" : "odd"}`}>
+         return <div key={index} className={`grid-item ${index % 2 === 0 ? "even" : "odd"}`}>
             <img src={article.urlToImage} alt="News Image" />
             <div className="content">
               <h2>{article.title}</h2>
